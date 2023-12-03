@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    height: 10em;
+    width: 10em;
+}
+
+body {
+    background: linear-gradient(135deg, #f4e6e6, #82be9a);
+    min-height: 100vh;
+}
+
+.overview {
+    text-align: center;
+    padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.overview h1 {
+    font-size: 64px;
+}
+
+.overview p {
+    font-size: 24px;
+}
+
+.all_products {
+    height: 10em;
+    width: 60%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    height: 10em;
+    width: 10em;
+    margin: 4px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.product p {
+    position: absolute;
+    background-color: lightcoral;
+    padding: 5px;
+}
+
+.product:hover {
+    border: solid rgb(255, 180, 180) 4px;
+    margin: 0;
+}
+
+.active{
+    margin: 0;
+    border: solid lightcoral 4px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.product_description {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product_description img {
+    height: 18em;
+    width: 18em;
+    margin: 1em;
+}
+
+.product_description_text {
+    width: 50%;
+}
+
+.hidden {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+#snowman_ornament_preview {
+    background-image: url(images/snowman_ornament.jpg);
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+
+#tree_bulb_preview {
+    background-image: url(images/tree_bulb.jpg);
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+
+#book_ornament_preview {
+    background-image: url(images/book_ornament.jpg);
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+
+#holiday_card_preview {
+    background-image: url(images/holiday_card.jpg);
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
